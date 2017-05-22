@@ -3,15 +3,20 @@
   <meta charset="utf-8">
   <title>Html - Exercise 13</title>
   <style>
-
+  input[type=text] {
+    display: block;
+    margin: 5px;
+  }
   </style>
 </head>
 <body>
 
   <h1>Send Data</h1>
-  <div class="form-group">
-    <label for=""></label>
-    <input type="text" class="form-control" id="" placeholder="">
-    <p class="help-block">Help text here.</p>
-  </div>
+  <form>
+    <input type="text" placeholder="Your name">
+    <input type="text" placeholder="Your surname">
+    <br>
+    <input type="button" value="next">
+    <input type="button" value="clear">
+  </form>
 </body>
